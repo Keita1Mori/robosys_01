@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/kadai1/robosys_01/myled.ko := ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o /home/ubuntu/kadai1/robosys_01/myled.ko /home/ubuntu/kadai1/robosys_01/myled.o /home/ubuntu/kadai1/robosys_01/myled.mod.o;  true
